@@ -1,11 +1,11 @@
 
 @stories
 Feature: Academy Choucair
-  As a user, I want to learn how to automate in screenplay at the Choucair
-  Academy with the automation course
+  As a user, I want to learn about testing in Artificial Intelligence at the Choucair
+  Academy with the Artificial Intelligence course
   @scenario1
   Scenario Outline: Search for automation course
-    Given that brandon wants to learn automation at the academy Choucair
+    Given that Brandon wants to learn about testing in Artificial Intelligence at the academy Choucair
     | strUser    | strPassword  |
     | <strUser> | <strPassword> |
     When he searches for the course on the choucair academy platform
@@ -16,4 +16,4 @@ Feature: Academy Choucair
     | <strCourse> |
     Examples:
       | strUser    | strPassword   | strCourse                           |
-      | 1053844261 | Choucair2021* | Recursos Automatización Bancolombia |
+      | 1053844261 | Choucair2021* | AiU Certified Tester in Artificial Intelligence (CTAI) |
